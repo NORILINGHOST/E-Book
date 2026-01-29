@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #f8f6f2, #ffffff);
+  color: #333;
+}
+
+.imagem1{
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 2.9rem;
+  color: #ff0000;
+}
+
+.hero h1 span {
+  color: #ff0000;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 2.2rem;
+  color: #555;
+  font-family:'Arial', sans-serif;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.card li {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(90deg, #00b600, #17b103);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 15px;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.warning {
+  font-size: 0.75rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+.benefit-box {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+.benefit-box strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #3b2f2f;
+}
+
+.cta {
+  padding: 30px 20px;
+  text-align: center;
+  background: #f5f5f5;
+  color: #000000;
+}
+
+.btn-dark {
+  background: linear-gradient(90deg, #00b600, #17b103);
+  margin-top: 20px;
+  font-size: 1.8rem;
+  padding: 10%;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+
+.ebook-cover {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.ebook-cover img {
+  width: 75%;
+  max-width: 260px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+
+.testimonials {
+  padding: 30px 20px;
+  background: #f9f7f3;
+}
+
+.testimonials h2 {
+  text-align: center;
+  color: #3b2f2f;
+  margin-bottom: 5px;
+}
+
+.testimonials-sub {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.testimonial-card p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-card span {
+  font-size: 0.8rem;
+  color: #9a7d2e;
+  font-weight: bold;
+}
+
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #001aff, #0400ff);
+  padding: 22px 0;
+  margin: 0px 0;
+}
+
+/* titulo princiapl da pagin */
+.titulo_principal{
+  font-size: 2.3rem;
+  text-align: center;
+  color: #fff;
+}
+.Viso{
+  font-size: 2.5rem;
+  color: #fffb00;
+  background-color: #ff0000;
+  padding: 6px 3%;
+  border-radius: 12px;
+}
+.recado_do_aviso{
+  font-size: 1.6rem;
+}
+
+
+.footer {
+  background: #3b2f2f;
+  color: #ffffff;
+  padding: 25px 18px;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e6c97a;
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #dddddd;
+  margin-bottom: 12px;
+}
+
+.footer-links {
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #e6c97a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  font-size: 0.7rem;
+  color: #cccccc;
+}
+
+.payment {
+  padding: 30px 20px;
+  background: #f5f2ec;
+  text-align: center;
+}
+
+.payment h2 {
+  color: #3b2f2f;
+  margin-bottom: 5px;
+}
+
+.payment-sub {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.payment-box {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.price {
+  font-size: 1.4rem;
+  color: #c9a44c;
+  font-weight: bold;
+}
+
+.installments {
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 18px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.payment-btn {
+  margin-top: 10px;
+}
+
+.payment-info {
+  font-size: 0.7rem;
+  color: #777;
+  margin-top: 12px;
+}
+
+
+.verified {
+  padding: 30px 20px;
+  background: #ffffff;
+}
+
+.verified-box {
+  border: 2px dashed #c9a44c;
+  border-radius: 18px;
+  padding: 22px;
+  text-align: center;
+}
+
+.verified-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.verified-box h3 {
+  color: #3b2f2f;
+  margin-bottom: 10px;
+}
+
+.verified-box p {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.verified-tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.verified-tags span {
+  background: #f8f6f2;
+  color: #3b2f2f;
+  font-size: 0.7rem;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.cta_h3{
+  font-size: 2rem;
+
+}
+
+
+.cat_paragrafo{
+  font-size: 1.4rem;
+  text-align: left;
+  margin-top: 4%;
+}
+
+.imagem_de_jesus{
+  width: 100%;
+}
+
